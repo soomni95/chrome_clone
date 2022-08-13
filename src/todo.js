@@ -32,7 +32,7 @@ function paintToDo(newTodo) {
 
 function handleToDoSubmit(event) {
     event.preventDefault();
-    const newTodo = toDoinput.value;
+    const newTodo = toDoInput.value;
     toDoInput.value = "";
     const newToDoObj = {
         text: newTodo,

@@ -9,7 +9,7 @@ function onLoginSubmit(event) {
     event.preventDefault();
     loginForm.classList.add(HIDDEN_CLASSNAME);
     const username = loginInput.value;
-    localStorage.setItem("username", username);
+    localStorage.setItem(USERNAME_KEY, username);
     paintGreetings(username);
 }
 
