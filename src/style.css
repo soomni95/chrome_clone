@@ -1,9 +1,125 @@
-body {
-    width: 100%;
-}
-
-
 .hidden {
     display: none;
 }
 
+img {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+#clock {
+    color: white;
+    font-size: 100px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#login-form{
+    text-align:center;
+    color:white;
+    margin:0 auto;
+}
+
+ #login-form input:first-child{
+    color: white;
+    font-size: 25px;
+    margin: 0px 25%;
+    width: 30%;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid white;
+    background-color: transparent;
+}
+
+#greeting {
+    text-align: center;
+    color: white;
+}
+
+#todo-form {
+    position: relative;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#todo-form input {
+    color: white;
+    font-size: 25px;
+    margin: 0px 25%;
+    width: 50%;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid white;
+    background-color: transparent;
+  }
+  
+  #todo-form ::placeholder {
+    font-weight: 600;
+    color: white;
+  }
+  
+  #todo-list {
+    margin: 20px 0px;
+    font-size: 20px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    animation: fadeIn 0.5s linear;
+  }
+  
+  #todo-list li {
+    position: relative;
+    margin: 0px 25%;
+    width: 50%;
+    text-align: left;
+  }
+  #todo-list span {
+    width: 100px;
+    margin-top: 10px;
+    color: white;
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+  }
+  
+  #todo-list button {
+    position: relative;
+    right: 0px;
+    margin-left: 10px;
+    color: tomato;
+    font-size: 28px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+
+
+#quote {
+    color: white;
+    text-align: center;
+    position:absolute;
+    bottom:20px;
+    justify-content: center;
+    margin: 0 30%;
+}
+
+#weather {
+    color: white;
+    font-size: 22px;
+    position: fixed;
+    top: 3%;
+    right: 3%;
+  }
